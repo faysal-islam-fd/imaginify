@@ -4,7 +4,7 @@ import profile_icon from '../assets/profile_icon.png'
 const Navbar = () => {
     const user = false;
   return (
-    <nav className=' flex justify-between items-center py-3'>
+    <nav className=' flex justify-between items-center py-3 w-[90%] mx-auto'>
         <div className='flex items-center gap-2'>
         <img className='size-11' src={logo} alt="Logo" />
         <span className='text-[30px] hidden sm:block font-[600]'>Imaginify</span>

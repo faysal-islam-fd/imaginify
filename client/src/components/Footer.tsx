@@ -5,7 +5,7 @@ import { assets } from "../assets/assets"
 
 const Footer = () => {
   return (
-    <div className="mt-28 py-4 flex items-center justify-between">
+    <div className="mt-28 py-4 w-[90%] mx-auto  flex items-center justify-between">
         <div className="flex items-center gap-20">
             <div className="flex items-center gap-2">
                 <img className="size-9" src={assets.logo} alt="" />
